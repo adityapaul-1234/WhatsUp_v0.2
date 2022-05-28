@@ -1,0 +1,120 @@
+body{
+  background: #8E2DE2;  
+  background: linear-gradient(to left, #12B4E5, #DBA5D9); 
+  overflow: hidden;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+#Main{
+  background-color: white;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  border-radius: 50px;
+  display: flex;
+  overflow: hidden;
+  margin-top: 2%;
+}
+
+.left{
+  width: 70%;
+  margin-bottom: none;
+  float: left; 
+  margin-right: none;
+}
+
+.right{
+  float: right;
+  margin-left: none;
+  position: relative;
+  padding-right: 9%;
+}
+
+.input{
+  border: none;
+  border-bottom: 3px solid black;
+  width: 315px;
+  font-size: 20px;
+  position: absolute;
+  padding-right: 100px;
+  margin-left:  -150px;
+}
+
+.imgs{
+  float: left;
+  padding-right: 75px;
+  margin-left: -75px;
+}
+
+.input_div{
+  margin-bottom: 50px;
+}
+
+.img-responsive{
+  width: 85%;
+  margin-top: -1px;
+}
+
+.input:focus{
+  outline: none;
+  border-bottom: 3px solid #1261a0;
+}
+
+#CreateNewRoom, #ExistingRoom{
+  color: #fff;
+  font-size: 18px;
+  padding: 12px 35px;
+  border-radius: 50px;
+  display: inline-block;
+  border: 0;
+  outline: 0;
+  box-shadow: 0px 7px grey;
+  background: linear-gradient(to right, #DC281E, #F00000); 
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  margin-right: 10px;
+}
+
+
+#CreateNewRoom:active,#ExistingRoom:active{
+  box-shadow: 0px 5px grey;
+  transform: translateY(2px);
+  -webkit-transform: translateY(2px);
+  -moz-transform: translateY(2px);
+  -ms-transform: translateY(2px);
+  -o-transform: translateY(2px);
+}
+
+h1{
+  color: orange;
+  margin-top: 60px;
+  margin-right: 10px;
+}
+
+label{
+  margin-right: 10px;
+}
+
+hr{
+  margin-bottom: 25px;
+  margin-right: 10px;
+}
+
+h2{
+  margin-right: 10px;
+  margin-bottom: 25px;
+}
+
+#ExistingRoom{
+  background: #F00000;
+  background-image: linear-gradient(135deg, #70F570 10%, #49C628 100%);
+  margin-top: -25px;  
+}
+
+#pass{
+  margin-bottom: 60px;
+}
