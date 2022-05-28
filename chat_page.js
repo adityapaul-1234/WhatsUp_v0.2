@@ -41,7 +41,7 @@ function logout(){
     localStorage.removeItem("Room_Name");
     localStorage.removeItem("user_name");
     localStorage.removeItem("Password");
-    window.location = "login_page.html";
+    window.location = "index.html";
 }
 
 function get_Data() {
